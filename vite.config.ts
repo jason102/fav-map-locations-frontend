@@ -11,4 +11,7 @@ export default defineConfig({
       src: "/src",
     },
   },
+
+  // Set publicDir to the folder where _redirects resides
+  publicDir: "public",
 });
